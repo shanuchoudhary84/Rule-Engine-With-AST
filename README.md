@@ -1,14 +1,14 @@
-##Rule Engine With AST
+# Rule Engine With AST
 A React application for creating, combining, and evaluating rules using Abstract Syntax Trees (AST). Visualize and test rules with ease.
 
-##Features
+# Features
 
 Create Rule: Input rules in the format field operator value (e.g., age > 30). Automatically validated and converted into an AST.
 Combine Rules: Merge multiple rules with logical operators (AND, OR) to form a complex rule represented as a unified AST.
 Evaluate Rule: Test the combined AST against provided JSON data to see if it meets the criteria.
 Visualize AST: View the AST of individual rules and combined rules as interactive tree structures using react-d3-tree.
 
-##Prerequisites
+# Prerequisites
 Node.js (v14 or later)
 npm (v6 or later)
 Getting Started
@@ -53,7 +53,7 @@ Copy code
 npm start
 The frontend server will be accessible at http://localhost:3000.
 
-##Usage
+# Usage
 
 Open your web browser and go to http://localhost:3000.
 
@@ -65,7 +65,7 @@ Evaluate Rule: Input JSON data in the textarea (e.g., {"age": 32, "department": 
 
 Visualize AST: View the AST of individual rules and the combined AST as interactive tree structures.
 
-##Example
+# Example
 
 Create Rules:
 
@@ -85,12 +85,12 @@ Copy code
 }
 The result should be true if the combined AST is satisfied by the provided data.
 
-##Contributing
+# Contributing
 
 We welcome contributions! If you'd like to help, please fork the repository, make your changes, and submit a pull request. For detailed guidelines, check out the CONTRIBUTING.md file.
 
-##License
+# License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
-##Contact
-For questions or feedback, please reach out to us at contact@example.com.
+# Contact
+For questions or feedback, please reach out to us at shanuchoudhary2025@gmail.com.
