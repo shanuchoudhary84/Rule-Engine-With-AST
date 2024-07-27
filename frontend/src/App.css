@@ -1,0 +1,127 @@
+/* General Styles */
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f0f2f5;
+  color: #333;
+}
+
+.App {
+  text-align: center;
+}
+
+/* Header Styles */
+.App-header {
+  background-color: #3e1f4b;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 30px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Logo Styles */
+.App-logo {
+  height: 60px;
+  margin-bottom: 20px;
+}
+
+/* Form Group Styles */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+  width: 100%;
+  max-width: 700px;
+}
+
+/* Input Styles */
+.form-input,
+.form-textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  box-shadow: inset 0 2px 4px rgba(0,0,0,0.1);
+  transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-input:focus,
+.form-textarea:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 8px rgba(0,123,255,0.5);
+  outline: none;
+}
+
+/* Button Styles */
+.form-button {
+  padding: 12px 24px;
+  border: none;
+  border-radius: 8px;
+  color: white;
+  background-color: #172a3f;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.form-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.form-button:disabled {
+  background-color: #c0c0c0;
+  cursor: not-allowed;
+  transform: none;
+}
+
+/* Result and Error Styles */
+.result,
+.error {
+  margin: 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  padding: 10px;
+  display: inline-block;
+}
+
+.result {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.error {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+/* AST Display Styles */
+.ast-display {
+  width: 100%;
+  margin: 20px auto;
+}
+
+.ast-display h2 {
+  margin-bottom: 15px;
+  font-size: 26px;
+  color: #007bff;
+}
+
+/* Tree Container Styles */
+.tree-container {
+  width: 100%;
+  height: 500px;
+  overflow: hidden;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  background-color: #ffffff;
+  padding: 10px;
+  margin: auto;
+}
