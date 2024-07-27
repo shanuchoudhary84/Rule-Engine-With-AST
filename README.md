@@ -56,6 +56,9 @@ Copy code
 npm start
 The frontend server will be accessible at http://localhost:3000.
 
+#Snapshot
+![Screenshot](frontend/src/snapshot.png)
+
 # Usage
 
 Open your web browser and go to http://localhost:3000.
